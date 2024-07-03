@@ -1,0 +1,37 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Noto, Oxygen-Sans, Ubuntu, Cantrell,
+    "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  /* border: 1px solid red; */
+}
+
+button,
+fieldset,
+input,
+legend,
+select,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  font-family: sans-serif;
+  height: 100vh;
+  color: #142631;
+  background-color: #e7e5e7;
+}
